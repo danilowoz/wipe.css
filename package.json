@@ -1,6 +1,6 @@
 {
   "name": "wipe.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": " It's a CSS library to reset default styles with some opinionated (and great) changes.",
   "main": "wipe.css",
   "scripts": {
