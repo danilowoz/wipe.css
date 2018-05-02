@@ -1,4 +1,4 @@
-# OpinionatedResetCSS
+# Wipe.css
 
 It's a CSS library to reset default styles with some opinionated changes.
 
@@ -13,7 +13,7 @@ It's a CSS library to reset default styles with some opinionated changes.
 ## Install
 
 ```sh
-$ Coming soon
+$ yarn add wipe.css
 ```
 
 ## Based on:
