@@ -145,6 +145,13 @@ img {
 }
 
 /**
+ * Remove space around figure elements
+ */
+figure {
+  margin: 0; 
+}
+
+/**
  * If a SVG doesn't have fill, it'll give one
  */
 
