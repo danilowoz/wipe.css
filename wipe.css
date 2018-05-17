@@ -6,6 +6,7 @@
 * {
 	margin: 0; /* 1 */
 	padding: 0; /* 1 */
+	border: 0; /* 1 */
 	background-repeat: no-repeat; /* 1 */
 	box-sizing: inherit; /* 2 */
 }
