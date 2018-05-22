@@ -115,6 +115,14 @@ textarea {
 }
 
 /**
+ * Remove border for fieldsets
+ */
+
+fieldset {
+	border: 0;
+}
+
+/**
  * Pointer cursor for buttons
  */
 
