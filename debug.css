@@ -1,0 +1,67 @@
+a[href^='http'] {
+  outline: 6px solid #f44336 !important;
+  position: relative;
+}
+
+a[href^='http']:after {
+  content: "Remove protocol";
+  font-size: .6em;
+  line-height: 1; 
+  white-space: nowrap;
+
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+
+  background: #f44336;
+  padding: 5px;
+  color: #fff;
+}
+
+/* https://www.jitbit.com/alexblog/256-targetblank---the-most-underestimated-vulnerability-ever/ */
+a[target='_blank']:not([rel='noopener noreferrer']) {
+  outline: 6px solid #f44336 !important;
+  position: relative;
+}
+
+a[target='_blank']:not([rel='noopener noreferrer']):after {
+  content: "Missing rel='noopener noreferrer'";
+  font-size: .6em;
+  line-height: 1; 
+  white-space: nowrap;
+
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  
+  background: #f44336;
+  padding: 5px;
+  color: #fff;
+}
+
+/* https://twitter.com/AllThingsSmitty/status/930617039085035520 */
+img:not([alt=""]),
+img:not([alt]) {
+	outline: 6px solid #f44336 !important;
+}
+
+img:not([alt=""]) + *,
+img:not([alt]) + * {
+  position: relative;
+}
+
+img:not([alt=""]) + *:after,
+img:not([alt]) + *:after {
+  content: "Image above is missing alt text";
+  font-size: .6em;
+  line-height: 1; 
+  white-space: nowrap;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  
+  background: #f44336;
+  padding: 5px;
+  color: #fff;
+}
