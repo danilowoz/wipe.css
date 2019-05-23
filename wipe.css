@@ -32,10 +32,8 @@ html {
 
 body {
   font-size: 16px; /* 1 */
-  line-height: 1.6; /* 1 */
   -moz-osx-font-smoothing: grayscale; /* 2 */
   -webkit-font-smoothing: antialiased; /* 2 */
-  overflow-x: hidden; /* 3 */
 }
 
 /**
@@ -161,14 +159,6 @@ img {
   max-width: 100%; /* 2 */
   height: auto; /* 2 */
   border-style: none; /* 3 */
-}
-
-/**
- * If a SVG doesn't have fill, it'll give one
- */
-
-svg {
-  fill: currentColor;
 }
 
 /**

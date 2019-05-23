@@ -1,7 +1,7 @@
 {
   "name": "wipe.css",
-  "version": "1.1.0",
-  "description": " It's a CSS library to reset default styles with some opinionated (and great) changes.",
+  "version": "1.1.1",
+  "description": " It's a CSS pacakge to reset default styles with some opinionated (and great) changes.",
   "main": "wipe.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
