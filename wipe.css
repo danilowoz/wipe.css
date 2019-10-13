@@ -89,6 +89,7 @@ textarea {
   font: inherit;
   -webkit-font-smoothing: inherit;
   letter-spacing: inherit;
+  color: inherit;
   background: none;
   vertical-align: top;
 }
