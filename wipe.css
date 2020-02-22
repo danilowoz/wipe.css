@@ -14,14 +14,14 @@
 /**
  * 1. Prevent certain mobile browsers from automatically zooming fonts.
  * 2. Border box sizing 
- * 3. Smooth scroll  
+ * 3. Default scroll behavior (not smooth)
  */
 
 html {
   -ms-text-size-adjust: 100%; /* 1 */
   -webkit-text-size-adjust: 100%; /* 1 */
   box-sizing: border-box; /* 2 */
-  scroll-behavior: smooth; /* 3 */
+  scroll-behavior: auto; /* 3 */
 }
 
 /**
