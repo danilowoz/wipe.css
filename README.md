@@ -16,6 +16,49 @@ It's a CSS library to reset default styles with some opinionated changes.
 $ yarn add wipe.css
 ```
 
+or
+
+```sh
+$ npm install wipe.css
+```
+
+## How to Use
+
+<details><summary><strong>Pure HTML</strong></summary>
+<p>
+
+```html
+<head>
+  ...
+  <link href="./wipe.css" rel="stylesheet" type="text/css" />
+</head>
+```
+</p>
+</details>
+
+<details><summary><strong>Pure CSS</strong></summary>
+<p>
+
+```css
+@import 'wipe.css';
+```
+</p>
+</details>
+
+<details><summary><strong>Styled Components</strong></summary>
+<p>
+
+```js
+import wipeCSS from 'wipe.css'
+import { createGlobalStyle } from 'styled-components'
+
+export const GlobalStyle = createGlobalStyle`
+  ${wipeCSS}
+`
+```
+</p>
+</details>
+
 ## Based on:
 
 [sanitize.css](https://github.com/jonathantneal/sanitize.css)
